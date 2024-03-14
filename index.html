@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Sami Alaboudi|| Portfolio Web Site</title>       
+        <title>Sami Alaboudi || Portfolio Web Site</title>       
     </head>
-    <div>
-        <h1>About me</h1>
-        
-    </div>
-    <body>
-        <h1 style = "color: green; text-align: center;">SAMI ALABOUDI</h1>
-        There's not much to see yet, but there will be soon! Thanks for stopping by.
+    <style>
+        #NIMGB {
+            border: 5px rebeccapurple solid;
+            display: block;    
+            width: 43%;
+            height: 300px;
+        }
+
+        #Icons {
+            border: 5px blue solid;
+            width: 47%;
+            height: 300px;
+
+        }
+
+        #Container1{
+            background-color:#313C4E;
+
+            border: 4px dashed black;
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            height: 600px;
+        }
+        #Container1 > div{
+            background-color:#313C4E;
+            /* margin-top: 0px;
+            margin-bottom: 0px; */
+            margin: 0 auto;
+            padding: 10px;
+
+        }
+    </style>
+    <body >
+        <div id = "Container1">
+            <div id = "Icons"> <!-- Why doesn't this appear, don't add a space between number and px-->
+                <H1 style="color:white">Insert all the icons (github, linkedin, resume, portfolio)</H1>
+            </div>
+            <div id = "NIMGB">
+                <img src="Sami_Avatar.png">
+            </div>
+        </div>
     </body>
 </html>
