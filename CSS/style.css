@@ -1,0 +1,89 @@
+.Container{
+    border: 4px dashed black;
+    height: 500px;
+    display: block;
+}
+.Banner{
+    border: solid 3px orangered;
+    display: flex;
+    justify-content: space-between;
+}
+.Column{
+    width: 50%
+}
+
+.col-Icon{
+    border: solid 2px blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}   
+
+.A{
+    background-color: red;
+}
+.B{
+    background-color: pink;
+}
+.C{
+    background-color: green;
+}
+.D{
+    background-color: yellow;
+}
+
+.col-avatar{
+    border: solid 2px blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.col-about-me{
+    border: 2px solid orange;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center
+}
+
+.col-skills{
+    border: 2px solid orange;
+    border-radius: 2px;
+    width: 100%;
+
+}
+
+.col-skills > h1{
+    text-align: center
+}
+
+
+
+/* #NIMGB {
+    border: 5px rebeccapurple solid;
+    display: block;    
+    width: 43%;
+    height: 300px;
+}
+
+#Icons {
+    border: 5px blue solid;
+    width: 47%;
+    height: 300px;
+
+}
+
+
+#Container1 > div{
+    background-color:#313C4E;
+    /* margin-top: 0px;
+    margin-bottom: 0px; */
+    /* margin: 0 auto;
+    padding: 10px;
+
+} */ 

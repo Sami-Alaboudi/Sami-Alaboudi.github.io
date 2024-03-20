@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Sami Alaboudi || Portfolio Web Site</title>       
+        <title>Sami Alaboudi || Portfolio Web Site</title>  
+        <link rel = "stylesheet"  href = "CSS/style.css" >   
     </head>
-    <style>
-        #NIMGB {
-            border: 5px rebeccapurple solid;
-            display: block;    
-            width: 43%;
-            height: 300px;
-        }
-
-        #Icons {
-            border: 5px blue solid;
-            width: 47%;
-            height: 300px;
-
-        }
-
-        #Container1{
-            background-color:#313C4E;
-
-            border: 4px dashed black;
-            display: flex;
-            flex-wrap: wrap;
-            width: auto;
-            height: 600px;
-        }
-        #Container1 > div{
-            background-color:#313C4E;
-            /* margin-top: 0px;
-            margin-bottom: 0px; */
-            margin: 0 auto;
-            padding: 10px;
-
-        }
-    </style>
     <body >
-        <div id = "Container1">
-            <div id = "Icons"> <!-- Why doesn't this appear, don't add a space between number and px-->
-                <H1 style="color:white">Insert all the icons (github, linkedin, resume, portfolio)</H1>
+        <div class = "Container">
+            <div class = "Banner">
+                <div class = "Column col-Icon"> <!--Icons Block-->
+                    <div class = "Icon A">
+                        1
+                    </div>
+                    <div class = "Icon B">
+                        2
+                    </div>
+                    <div class = "Icon C">
+                        3
+                    </div>
+                    <div class = "Icon D">
+                        4                    
+                    </div>
+                </div>
+                <div class = "Column col-avatar">
+                    <img src = "Sami_Avatar.png">
+                </div> <!--Name and Avater-->
+            </div>
+            <div class = "Column col-about-me">
+                <H1>About Me</H1>
+                <p>I like to solve real word problems, i beleive engineering is an art,
+                    fields of interest include , robotics, ai, mobile devolopment, web developement,dev ops, qunatumam mechanics,
+                    I am currently pursuing an engineering degreee at carleton university, my expected date of graduation is 2025.
+                </p>
+            </div> <!--About Me-->
+            <div class = "Column col-skills">
+                <H1>My skills</H1>
+                <ul>
+                    <li>python</li>
+                    <li>C</li>
+                    <li>Microsoft Office</li>
+                    <li>etc</li>
+                </ul>
+            </div> 
+            
+            
+            
+            <!-- Skills Secion-->
+            <!-- <div id = "Icons"> Why doesn't this appear, don't add a space between number and px-->
+                <!-- <H1 style="color:white">Insert all the icons (github, linkedin, resume, portfolio)</H1>
             </div>
             <div id = "NIMGB">
                 <img src="Sami_Avatar.png">
-            </div>
+            </div> --> 
         </div>
     </body>
 </html>
