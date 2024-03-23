@@ -12,49 +12,91 @@ body{
     border: solid 3px orangered;
     display: flex;
     justify-content: space-around;
+    margin: 1em auto;
 }
-/* .Column{
-    width: 50%
-} */
 
-.col-Icon{
-    border: solid 2px blueviolet;
-    width:35%;
+
+.Column.col-Icon{
+    /* border: solid 5px white; */
+    /* background-color: lightpink; */
+    /* width:35%; */
     min-width: 50%;
-    display: flex;
+    max-height: 100%;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-height: 300px;
-    padding-top: 2.5em;
-    padding-bottom: 2em;
+    Review the bottom settings it may mess things up*/
+    /* padding-top: 4.5em;
+    padding-bottom: 0;
     padding-left: 2.5em;
-    padding-right: 2.5em;
+    padding-right: 2.5em;  */
+    margin: auto auto;
 
 
 }
 
+.IconLock{
+    border: solid 6px white;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 70%;/* check what's wrong here*/
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 2em 0;
+}
 
 .Icon{
     width: 25%;
-    background-color:;
-    text-align:center;
-    margin: 0.1em 0.5em;
-    padding:  auto 0.25;
+    max-width:25%;
+    /* background-color:lightyellow;  */
+    /* text-align:center; */
+    margin: 0em 0.3em;
+    padding:  auto 0.95em; 
     color:white;
 }
 
+.A:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+.B:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+.A:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+.C:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+.D:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+.E:hover{
+    color:#ffc20e;
+    scale: 1.15; /* fix the centering of scale*/
+}
+
 .col-avatar{
-    width:100%;
-    min-width: 40%;
-    border: solid 2px blueviolet;
+    width:90%;
+    min-width: 30%;
+    border: solid 6px blueviolet;
     display: flex;
     justify-content: center;
     max-height: 300px;
 }
 
-img{
-    max-width: 100%;
-    min-width: 30%
+img{/*come back and decide on this*/
+    display: ;
+    max-width: 90%;
+    min-width: 30%;
+    background-color: aqua;
     
     
 }
@@ -68,28 +110,35 @@ img{
     text-align: center;
     color: white;
 }
-.Button_button-container__AcfIB{
-    color: var(--dark);
+button{
     text-transform: uppercase;
-    background: var(--color);
-    border-radius: var(--br-s);
-    text-decoration: none;
-    font-weight: 400;
-    cursor: pointer;
-    transition: background-color 0.125s ease-in-out 0s, top 0.25s ease-in-out 0s;
-    position: relative;
-    top: 0px;
+    background: white;
+    font-family: "Press Start 2P";
+    color: #313C4E;
+    cursor: grab;/*The cursor attribute is key*/
+    border-radius: ; /* not sure I want to keep this*/
+    height: 40px;
 }
-/* p{
 
-} */
+#CM{
+    text-decoration: none;
+    color:#313C4E;
+}
+button:hover{
+    background: #ffc20e;
+    /* border-right: 4px solid #ffc20e;
+    border-bottom: 2px solid #ffc20e; */
+    scale: 1.35;
+
+}
+
 
 .col-skills{
     border: 2px solid orange;
     border-radius: 2px;
     width: 100%;
     color: white;
-
+    margin: 1em auto;
 
 }
 
