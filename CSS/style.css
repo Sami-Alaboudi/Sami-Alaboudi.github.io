@@ -1,47 +1,57 @@
 .Container{
     border: 4px dashed black;
-    height: 500px;
+    height: 100%;
     display: block;
 }
 .Banner{
     border: solid 3px orangered;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.Column{
+/* .Column{
     width: 50%
-}
+} */
 
 .col-Icon{
     border: solid 2px blueviolet;
+    width:35%;
+    min-width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-height: 300px;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 
-}   
 
-.A{
-    background-color: red;
 }
-.B{
-    background-color: pink;
-}
-.C{
-    background-color: green;
-}
-.D{
-    background-color: yellow;
+
+
+.Icon{
+    width: 25%;
+    background-color:;
+    text-align:center;
+    margin: 0.1em 0.5em;
+    padding:  auto 0.25;
+    color:#313C4E;
 }
 
 .col-avatar{
+    width:100%;
+    min-width: 40%;
     border: solid 2px blueviolet;
     display: flex;
     justify-content: center;
+    max-height: 300px;
 }
 
 img{
     max-width: 100%;
-    min-width: 100%;
+    min-width: 30%
+    
+    
 }
 
 .col-about-me{
@@ -50,6 +60,10 @@ img{
     width: 100%;
     text-align: center
 }
+
+/* p{
+
+} */
 
 .col-skills{
     border: 2px solid orange;
@@ -64,26 +78,3 @@ img{
 
 
 
-/* #NIMGB {
-    border: 5px rebeccapurple solid;
-    display: block;    
-    width: 43%;
-    height: 300px;
-}
-
-#Icons {
-    border: 5px blue solid;
-    width: 47%;
-    height: 300px;
-
-}
-
-
-#Container1 > div{
-    background-color:#313C4E;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
-    /* margin: 0 auto;
-    padding: 10px;
-
-} */ 
