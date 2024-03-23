@@ -1,3 +1,8 @@
+body{
+    background-color: #313C4E;
+    font-family: "Press Start 2P";
+
+}
 .Container{
     border: 4px dashed black;
     height: 100%;
@@ -35,7 +40,7 @@
     text-align:center;
     margin: 0.1em 0.5em;
     padding:  auto 0.25;
-    color:#313C4E;
+    color:white;
 }
 
 .col-avatar{
@@ -56,11 +61,25 @@ img{
 
 .col-about-me{
     border: 2px solid orange;
+    
     border-radius: 2px;
+    font-family: "Press Start 2P";
     width: 100%;
-    text-align: center
+    text-align: center;
+    color: white;
 }
-
+.Button_button-container__AcfIB{
+    color: var(--dark);
+    text-transform: uppercase;
+    background: var(--color);
+    border-radius: var(--br-s);
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.125s ease-in-out 0s, top 0.25s ease-in-out 0s;
+    position: relative;
+    top: 0px;
+}
 /* p{
 
 } */
@@ -69,6 +88,8 @@ img{
     border: 2px solid orange;
     border-radius: 2px;
     width: 100%;
+    color: white;
+
 
 }
 
