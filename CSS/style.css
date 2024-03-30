@@ -1,6 +1,8 @@
+
 body{
     background-color: #313C4E;
     font-family: "Press Start 2P";
+    
 
 }
 .Container{
@@ -9,59 +11,58 @@ body{
     display: block;
 }
 .Banner{
-    border: solid 3px orangered;
+    /* border: solid 3px orangered; */
     display: flex;
     justify-content: space-around;
+    max-width: 80%;
+    min-width: 100%;
     margin: 1em auto;
 }
 
 
 .Column.col-Icon{
     /* border: solid 5px white; */
-    /* background-color: lightpink; */
-    /* width:35%; */
+    /* background-color: pink; */
     min-width: 50%;
     max-height: 100%;
     /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     Review the bottom settings it may mess things up*/
     /* padding-top: 4.5em;
     padding-bottom: 0;
     padding-left: 2.5em;
     padding-right: 2.5em;  */
-    margin: auto auto;
+    margin: auto 0em;
+    justify-content: center;
+    /* margin-right: 1px; may be useful for when I mees with image*/
 
 
 }
 
+/*may need to fix icon size using media queury*/
 .IconLock{
     border: solid 6px white;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-around; */
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: space-around;
+    text-align: center;
     max-width: 70%;/* check what's wrong here*/
-    min-width: 100%;
-    margin: 0 auto;
-    padding: 2em 0;
+    min-width: 90%;
+    margin: 0 auto; 
+    padding: 0.5em 0;
 }
 
 .Icon{
     width: 25%;
-    max-width:25%;
+    min-width:20%;
     /* background-color:lightyellow;  */
     /* text-align:center; */
     margin: 0em 0.3em;
-    padding:  auto 0.95em; 
+    padding:  auto auto; 
     color:white;
 }
 
-.A:hover{
-    color:#ffc20e;
-    scale: 1.15; /* fix the centering of scale*/
-}
+
 .B:hover{
     color:#ffc20e;
     scale: 1.15; /* fix the centering of scale*/
@@ -85,17 +86,23 @@ body{
 
 .col-avatar{
     width:90%;
-    min-width: 30%;
-    border: solid 6px blueviolet;
+    max-width:800px;
+    min-width: 55%;
+    /* border: solid 6px blueviolet; */
     display: flex;
-    justify-content: center;
+    /* align-items: center; */
     max-height: 300px;
+    text-align: center;
+    justify-content: space-around;
+    
 }
 
 img{/*come back and decide on this*/
-    display: ;
-    max-width: 90%;
-    min-width: 30%;
+    display: block;
+    width:90%;
+    max-width:720px;
+    /* min-width: 93%; */
+    /* min-height: 110%; */
     background-color: aqua;
     
     
@@ -116,7 +123,7 @@ button{
     font-family: "Press Start 2P";
     color: #313C4E;
     cursor: grab;/*The cursor attribute is key*/
-    border-radius: ; /* not sure I want to keep this*/
+    /* border-radius: ; not sure I want to keep this */
     height: 40px;
 }
 
