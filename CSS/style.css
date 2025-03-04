@@ -5,10 +5,45 @@ body{
     
 
 }
+
+/* will have to add in media query for mobile devices
+there is two parameters for media queure, will need to figure out what the largest 
+container is
+*/
+
+
+/* change the color of the text disclosure to red 
+can one nest an id "attribute" into a p tag?*/
+
+#disclosure {
+    color: rgb(254, 4, 250);
+}
+
+
+
 .Container{
     border: 4px dashed black;
     height: 100%;
     display: block;
+}
+
+@media screen and (min-width: 1000px){
+    .Container{  /* in the header we heve media type and media condition how does this body work? */
+        border: 2px dashed black; /* why is the border not changing color?*/
+   
+    }
+    html{
+        /*display: block; didnt affect anything*/
+        display: table;
+        margin: auto;
+        /*width: 1000px; not whats limiting*/
+    }
+    body{
+        width: 1000px;
+        display: table-cell;
+        vertical-align: middle;
+
+    }
 }
 .Banner{
     /* border: solid 3px orangered; */
